@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageProgressBar"><attr format="integer" name="progress_current"/><attr format="integer" name="progress_max"/><attr format="color" name="progress_unreached_color"/><attr format="color" name="progress_reached_color"/><attr format="dimension" name="progress_reached_bar_height"/><attr format="dimension" name="progress_unreached_bar_height"/><attr format="dimension" name="progress_image_offset"/><attr format="reference" name="progress_image_id"/><attr format="float" name="progress_image_proportion"/></declare-styleable>
+    <declare-styleable name="Themes"><attr format="reference" name="imageProgressBarStyle"/></declare-styleable>
+    <string name="app_name">ImageProgressBar</string>
+</resources>

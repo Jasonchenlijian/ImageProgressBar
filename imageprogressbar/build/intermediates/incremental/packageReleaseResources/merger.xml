@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\Github\ImageProgressBar\imageprogressbar\src\main\res"/><source path="E:\Github\ImageProgressBar\imageprogressbar\build\generated\res\rs\release"/><source path="E:\Github\ImageProgressBar\imageprogressbar\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="E:\Github\ImageProgressBar\imageprogressbar\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\Github\ImageProgressBar\imageprogressbar\src\main\res"><file name="ic_launcher" path="E:\Github\ImageProgressBar\imageprogressbar\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file path="E:\Github\ImageProgressBar\imageprogressbar\src\main\res\values\attr.xml" qualifiers=""><declare-styleable name="Themes">
+        <attr format="reference" name="imageProgressBarStyle"/>
+    </declare-styleable><declare-styleable name="ImageProgressBar">
+        <attr format="integer" name="progress_current"/>
+        <attr format="integer" name="progress_max"/>
+
+        <attr format="color" name="progress_unreached_color"/>
+        <attr format="color" name="progress_reached_color"/>
+
+        <attr format="dimension" name="progress_reached_bar_height"/>
+        <attr format="dimension" name="progress_unreached_bar_height"/>
+
+        <attr format="dimension" name="progress_image_offset"/>
+
+        <attr format="reference" name="progress_image_id"/>
+        <attr format="float" name="progress_image_proportion"/>
+
+    </declare-styleable></file><file path="E:\Github\ImageProgressBar\imageprogressbar\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">ImageProgressBar</string></file></source><source path="E:\Github\ImageProgressBar\imageprogressbar\build\generated\res\rs\release"/><source path="E:\Github\ImageProgressBar\imageprogressbar\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="E:\Github\ImageProgressBar\imageprogressbar\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="Themes"><attr format="reference" name="imageProgressBarStyle"/></declare-styleable><declare-styleable name="ImageProgressBar"><attr format="integer" name="progress_current"/><attr format="integer" name="progress_max"/><attr format="color" name="progress_unreached_color"/><attr format="color" name="progress_reached_color"/><attr format="dimension" name="progress_reached_bar_height"/><attr format="dimension" name="progress_unreached_bar_height"/><attr format="dimension" name="progress_image_offset"/><attr format="reference" name="progress_image_id"/><attr format="float" name="progress_image_proportion"/></declare-styleable></configuration></mergedItems></merger>
