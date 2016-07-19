@@ -2,7 +2,7 @@
 可以用图片来标记progressbar进度的特殊progressbar
 
 ## Preview ##
-![效果图](http://v2.freep.cn/3tb_1607191514016deg512293.gif)
+![效果图](http://ww1.sinaimg.cn/mw690/68c44581gw1f5z9fpyfmog208w0ftta7.gif)
 
 ## Usage ##
 
