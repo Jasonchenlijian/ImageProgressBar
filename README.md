@@ -7,28 +7,30 @@
 ## Usage ##
 
 - 在xml中像官方Progressbar一样使用，并设置自己喜欢的风格
-  
-       <com.clj.imageprogressbar.ImageProgressBar
-        android:id="@+id/progressbar1"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_gravity="center_horizontal"
-        android:background="@android:color/holo_blue_dark"
-        android:paddingLeft="2dp"
-        android:paddingRight="2dp"
-        
-        custom:progress_current="0"
-        custom:progress_image_id="@mipmap/ic_car"
-        custom:progress_image_offset="5dp"
-        custom:progress_image_proportion="1.1"
-        custom:progress_max="100"
-        custom:progress_reached_bar_height="2dp"
-        custom:progress_reached_color="@color/colorAccent"
-        custom:progress_unreached_bar_height="2dp"
-        custom:progress_unreached_color="@color/colorPrimary" />
+
+
+        <com.clj.imageprogressbar.ImageProgressBar
+            android:id="@+id/progressbar1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_blue_dark"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+
+            custom:progress_current="0"
+            custom:progress_image_id="@mipmap/ic_car"
+            custom:progress_image_offset="5dp"
+            custom:progress_image_proportion="1.1"
+            custom:progress_max="100"
+            custom:progress_reached_bar_height="2dp"
+            custom:progress_reached_color="@color/colorAccent"
+            custom:progress_unreached_bar_height="2dp"
+            custom:progress_unreached_color="@color/colorPrimary" />
      
 
 - xml属性说明
+
 
         <!--当前进度-->
         <attr name="progress_current" format="integer" />
