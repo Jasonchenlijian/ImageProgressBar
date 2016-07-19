@@ -1,5 +1,5 @@
 # ImageProgressBar
-可以用图片来标记progressbar进度的特殊progressbar
+可以用自定义的图片来标记progressbar进度的特殊progressbar
 
 ## Preview ##
 ![效果图](http://ww1.sinaimg.cn/mw690/68c44581gw1f5z9fpyfmog208w0ftta7.gif)
@@ -16,6 +16,7 @@
         android:background="@android:color/holo_blue_dark"
         android:paddingLeft="2dp"
         android:paddingRight="2dp"
+        
         custom:progress_current="0"
         custom:progress_image_id="@mipmap/ic_car"
         custom:progress_image_offset="5dp"
