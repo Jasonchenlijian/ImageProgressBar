@@ -2,20 +2,24 @@
 <resources>
 
     <declare-styleable name="ImageProgressBar">
+        <!--当前进度-->
         <attr name="progress_current" format="integer" />
+        <!--最大进度-->
         <attr name="progress_max" format="integer" />
-
+        <!--未达到进度条的颜色-->
         <attr name="progress_unreached_color" format="color" />
+        <!--已达到进度条的颜色-->
         <attr name="progress_reached_color" format="color" />
-
+        <!--已达到进度条的高度-->
         <attr name="progress_reached_bar_height" format="dimension" />
+        <!--未达到进度条的高度-->
         <attr name="progress_unreached_bar_height" format="dimension" />
-
+        <!--图片和进度条之间的距离-->
         <attr name="progress_image_offset" format="dimension" />
-
+        <!--图片资源id-->
         <attr name="progress_image_id" format="reference" />
+        <!--图片的长宽比-->
         <attr name="progress_image_proportion" format="float" />
-
     </declare-styleable>
 
     <declare-styleable name="Themes">
