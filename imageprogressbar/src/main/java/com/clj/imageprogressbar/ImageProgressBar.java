@@ -333,7 +333,7 @@ public class ImageProgressBar extends View {
         return mUnreachedBarHeight;
     }
 
-    private void setImage(int image_id) {
+    public void setImage(int image_id) {
         this.image_id = image_id;
         invalidate();
     }
